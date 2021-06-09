@@ -6,12 +6,11 @@ export const Menu = styled.section`
 
 export const MenuHeader = styled.h2`
 text-align: center;
-font-family: 'Titan One', cursive;
-color:  #f08a5d;
-text-shadow: 1px 1px #FF8C00;
+color:  #000;
 font-size: 30px;
 `;
 
+// font-family: 'Titan One', cursive;
 export const MenuItems = styled.div`
 
 `;

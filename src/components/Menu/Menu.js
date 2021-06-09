@@ -16,7 +16,7 @@ const MenuComponent = ({ meals, orderItems, setOrderItems }) => {
 
 	return (
 		<Menu className="menu">
-			<MenuHeader>Menu</MenuHeader>
+			<MenuHeader>Menu Items</MenuHeader>
 			<MenuItems>
 				{meals.map((item) => (
 					<Item key={`${item.id}`} item={item} addItem={addItem} />

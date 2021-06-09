@@ -10,8 +10,7 @@ export const OrderItem = styled.div`
 	margin-bottom: 20px;
 	padding: 20px;
 	align-items: center;
-	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-		0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e6e6e6;
 	background-color: white;
 `;
 
@@ -37,14 +36,12 @@ export const OrderPrice = styled.div`
 
 export const OrderHeader = styled.h3`
 	text-align: center;
-	font-family: "Titan One", cursive;
-	color: #f08a5d;
-	text-shadow: 1px 1px #ff8c00;
+	color: #000;
 	font-size: 30px;
 `;
 
 export const OrderQuantity = styled.div`
-	color: #f08a5d;
+	color: #000;
 	font-size: 16px;
 	font-weight: 700;
 	padding: 0 20px;
@@ -52,7 +49,7 @@ export const OrderQuantity = styled.div`
 
 export const OrderHeadingTotal = styled(OrderHeader)`
 	font-size: 25px;
-	color: #fff;
+	color: #000;
 	& > span {
 		padding: 0 7px
 	}
@@ -60,7 +57,7 @@ export const OrderHeadingTotal = styled(OrderHeader)`
 
 export const OrderHeaderNothing = styled.h4`
 	text-align: center;
-	color: #fff;
+	color: #000;
 `;
 
 export const ControlBox = styled.div`

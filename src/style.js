@@ -5,7 +5,7 @@ margin: 0;
 padding: 0;
 line-height: 1;
 color: #202020;
-background-color: #0d1117;
+background-color: #fff;
 font-smooth: always;
 -webkit-font-smoothing: antialiased;
 -moz-osx-font-smoothing: grayscale;
@@ -14,12 +14,12 @@ font-smooth: always;
 export const Header = styled.header`
 margin: auto;
 text-align: center;
-background: url(/images/recipe.jpg) repeat-x;
+background-color: #fff;
 height: 60px;
 background-size: contain;
 >  h1 {
     margin: 0;
-    text-shadow: 5px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     color: white;
     line-height: 55px;
     font-size: 35px;

@@ -55,7 +55,7 @@ const Order = ({ orderItems, setOrderItems }) => {
 								<span>{spiceEmoji(item.spice)}</span>
 							</OrderName>
 							<OrderPrice>
-								<span>{`₦${item.price * item.quantity}`}</span>
+								<span>{`$${item.price * item.quantity}`}</span>
 							</OrderPrice>
 							<ControlBox>
 								<MinusIcon onClick={() => decrement(item)} />
@@ -64,7 +64,7 @@ const Order = ({ orderItems, setOrderItems }) => {
 							</ControlBox>
 						</Item>
 						<OrderQuantity>
-							{`qauntity: ${item.quantity}`}
+							{`quantity: ${item.quantity}`}
 						</OrderQuantity>
 					</OrderItem>
 				))}
@@ -72,7 +72,7 @@ const Order = ({ orderItems, setOrderItems }) => {
 				<OrderHeadingTotal title="order heading total">
 					Total Price:
 					<span title="total price">
-						{`₦${orderItems.reduce(
+						{`$${orderItems.reduce(
 							(curr, val) => curr + val.price * val.quantity,
 							0
 						)}`}

@@ -1,20 +1,20 @@
 [
   {
     "id": 1,
-    "name": "Afang Soup",
-    "image": "/images/afang.jpg",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
-    "price": 500,
+    "name": "Boneless Banquet",
+    "image": "/images/boneless-banquet.jpeg",
+    "desc": "3 Mini Fillets, small Popcorn Chicken, regular fries & your choice of side. Plus one Original Dip & a drink. A dipping delight.",
+    "price": 8.49,
     "available": true,
     "spice": 1,
     "quantity": 1
   },
   {
     "id": 2,
-    "name": "Bitter Leaf Soup",
-    "image": "/images/bitter.jpeg",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
-    "price": 700,
+    "name": "Mighty Bucket For One Meal",
+    "image": "/images/mighty-bucket.jpeg",
+    "desc": "2 pieces of Chicken, 2 Mini Fillets, 2 Hot Wings with a regular side & regular drink.",
+    "price": 8.49,
     "available": true,
     "spice": 2,
     "quantity": 1
@@ -22,20 +22,20 @@
   },
   {
     "id": 3,
-    "name": "Egusi Soup",
-    "image": "/images/egusi.jpeg",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
-    "price": 800,
+    "name": "20 Chicken McNuggets® Sharebox",
+    "image": "/images/chicken-mcnuggets.jpeg",
+    "desc": "The allergen status of our Chicken products has changed. For full nutritional and allergen information for our food please visit http://mcdonalds.co.uk/nutrition.",
+    "price": 4.99,
     "available": true,
     "spice": 1,
     "quantity": 1
   },
   {
     "id": 4,
-    "name": "Okro Soup",
-    "image": "/images/okro.jpeg",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
-    "price": 900,
+    "name": "Big Mac®",
+    "image": "/images/big-mac.jpeg",
+    "desc": "The allergen status of our Chicken products has changed. For full nutritional and allergen information for our food please visit http://mcdonalds.co.uk/nutrition.",
+    "price": 3.79,
     "available": true,
     "spice": 3,
     "quantity": 1
@@ -43,13 +43,53 @@
   },
   {
     "id": 5,
-    "name": "Efo Riro Soup",
-    "image": "/images/efo-riro.jpeg",
-    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, nam et est ornare.",
-    "price": 800,
+    "name": "Fresh Cod Supper",
+    "image": "/images/fresh-cod.jpeg",
+    "desc": "Monte Carlo has a FHRS rating of 4. This information was updated on 07/06/2021. The current rating is on their page on the FSA Website. Allergies, intolerances and dietary requirements: Before ordering, please contact the restaurant directly and ask to speak to a member of staff who can assist if you require information about ingredients and help cater for your needs.",
+    "price": 8.30,
     "available": true,
     "spice": 3,
     "quantity": 1
 
+  },
+  {
+    "id": 6,
+    "name": "French Fries",
+    "image": "/images/french-fries.jpeg",
+    "desc": "Mikey's french fries topped with your choice of sauce.",
+    "price": 3.00,
+    "available": true,
+    "spice": 3,
+    "quantity": 1
+  },
+  {
+    "id": 7,
+    "name": "Boneless Chicken Wings",
+    "image": "/images/boneless-chicken.jpeg",
+    "desc": "Mikeys famous chicken boneless wings in hot sauce or BBQ sauce.",
+    "price": 4.00,
+    "available": true,
+    "spice": 3,
+    "quantity": 1
+  },
+  {
+    "id": 8,
+    "name": "Battered Oreos",
+    "image": "/images/battered-oreos.jpeg",
+    "desc": "Yes you read it right... Oreos in mikeys batter.",
+    "price": 7.50,
+    "available": true,
+    "spice": 3,
+    "quantity": 1
+  },
+  {
+    "id": 9,
+    "name": "Philly Cheesesteak",
+    "image": "/images/philly-cheesesteak.jpeg",
+    "desc": "Fresh Irish steak with onions, lettuce, and peppers marinated in Eastcoast and BBQ sauces.",
+    "price": 3.00,
+    "available": true,
+    "spice": 3,
+    "quantity": 1
   }
 ]

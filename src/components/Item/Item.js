@@ -23,7 +23,7 @@ const Item = ({ item, addItem }) => {
 
 				<ItemInfoDescription>{item.desc}</ItemInfoDescription>
 				<Button type="button" onClick={() => addItem(item)}>
-					{`${item.name} | ₦${item.price}`}
+					{`${item.name} | $${item.price}`}
 				</Button>
 			</ItemInfo>
 			<ItemImage src={item.image} alt={item.name} />

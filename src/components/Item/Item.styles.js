@@ -10,7 +10,7 @@ export const ItemsContainer = styled.div`
     align-items: center;
     grid-gap: 1rem;
     grid-template-columns: 1fr 200px;
-    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    border: 1px solid #e6e6e6;
     margin-bottom: 20px;
     background-color: white;
     border-radius: 0.25rem;
@@ -35,7 +35,7 @@ export const ItemInfoDescription = styled.p`
 
 export const Button = styled.button`
         cursor: pointer;
-        background-color: #f08a5d;
+        background-color: #000000;
         border: 0;
         width: 100%;
         color: white;
@@ -49,7 +49,8 @@ export const Button = styled.button`
         animation-fill-mode: backwards;
         &:hover {
             transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3)
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            background-color: #f08a5d;
         }
         &:active {
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
